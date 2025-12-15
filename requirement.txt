@@ -1,15 +1,18 @@
-streamlit
-pandas
-numpy
+# 라이브러리
+import streamlit as st
+import time
+import re
 
-matplotlib
-seaborn
-koreanize-matplotlib
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import networkx as nx
 
-networkx
+from wordcloud import WordCloud, STOPWORDS
+from konlpy.tag import Okt
+from itertools import combinations
+from collections import Counter
 
-wordcloud
-konlpy
-
-altair
-plotly
+import altair as alt
+import plotly.express as px
+import koreanize_matplotlib
