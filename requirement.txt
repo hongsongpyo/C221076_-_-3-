@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+
+matplotlib
+seaborn
+koreanize-matplotlib
+
+networkx
+
+wordcloud
+konlpy
+
+altair
+plotly
